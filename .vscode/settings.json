@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.lua": "pico-8-lua"
+  },
+  "editor.formatOnSave": true
+}
