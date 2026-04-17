@@ -2,6 +2,7 @@ pico-8 cartridge // http://www.pico-8.com
 version 43
 __lua__
 #include src/grid.lua
+#include src/cursor.lua
 #include src/main.lua
 
 __gfx__
