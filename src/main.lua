@@ -1,11 +1,22 @@
 function _init()
+  ox = 28
+  oy = 28
+
+  cursor_init()
+  grid_init()
 end
 
 function _update()
+  cursor_update()
+
+  if btnp(4) then
+    grid_toggle()
+  end
 end
 
 function _draw()
   cls()
-  spr(1, 10, 10)
-  circfill(64, 64, 30, 8)
+
+  grid_draw()
+  cursor_draw()
 end
