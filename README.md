@@ -1,3 +1,5 @@
+> ⏸️ **Paused.** Development is temporarily on hold.
+
 # 💣 Minesweeper
 
 A classic Minesweeper game built for [PICO-8](https://www.lexaloffle.com/pico-8.php).
